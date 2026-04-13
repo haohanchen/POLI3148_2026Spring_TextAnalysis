@@ -1,0 +1,201 @@
+/* @theme poli3148 */
+
+@import 'default';
+
+:root {
+  --color-primary: #48BB78;
+  --color-dark: #2D3748;
+  --color-body: #4A5568;
+  --color-light-bg: #F7FAFC;
+}
+
+section {
+  font-family: Calibri, 'Segoe UI', sans-serif;
+  color: var(--color-body);
+  padding: 40px 60px;
+}
+
+/* Green accent bar at top */
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: var(--color-primary);
+}
+
+/* Green accent bar at bottom */
+section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: var(--color-primary);
+}
+
+h1 {
+  color: var(--color-dark);
+  font-size: 1.6em;
+  font-weight: bold;
+  border-bottom: none;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: var(--color-dark);
+  font-size: 1.3em;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+h3 {
+  color: var(--color-dark);
+  font-size: 1.1em;
+}
+
+strong {
+  color: var(--color-dark);
+}
+
+/* Bullet styling */
+ul, ol {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  font-size: 0.95em;
+  color: #718096;
+}
+
+/* Code blocks */
+code {
+  font-family: 'Courier New', monospace;
+  background: var(--color-light-bg);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.85em;
+}
+
+pre {
+  background: var(--color-light-bg);
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  padding: 16px 20px;
+  font-size: 0.75em;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Tables */
+table {
+  font-size: 0.8em;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: var(--color-dark);
+  color: white;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+td {
+  padding: 6px 12px;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+tr:nth-child(even) {
+  background: var(--color-light-bg);
+}
+
+/* Section divider slides */
+section.divider {
+  background: var(--color-dark);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.divider::before,
+section.divider::after {
+  background: var(--color-primary);
+}
+
+section.divider h1 {
+  color: white;
+  font-size: 2em;
+  border-bottom: none;
+}
+
+/* Title slide */
+section.title {
+  background: var(--color-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.title::before,
+section.title::after {
+  background: var(--color-primary);
+}
+
+section.title h1 {
+  color: white;
+  font-size: 2.2em;
+  margin-bottom: 0.2em;
+}
+
+section.title h2 {
+  color: #A0AEC0;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+section.title p {
+  color: #CBD5E0;
+  font-size: 0.9em;
+}
+
+/* Exercise/activity slides */
+section.exercise {
+  background: #FFFFF0;
+}
+
+section.exercise::before {
+  background: #D69E2E;
+}
+
+section.exercise::after {
+  background: #D69E2E;
+}
+
+/* Blockquote styling for callouts */
+blockquote {
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-light-bg);
+  padding: 12px 20px;
+  margin: 0.5em 0;
+  font-size: 0.9em;
+}
+
+/* Two-column layout */
+section.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

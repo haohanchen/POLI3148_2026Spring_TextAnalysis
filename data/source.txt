@@ -1,0 +1,19 @@
+Chinese Ministry of Foreign Affairs Press Conferences Corpus (CMFA PressCon v6)
+
+These data are from the Harvard Dataverse repository. They were originally produced
+and published as part of the following research paper:
+
+  Mochtak, M. & Turcsanyi, R.Q. (2021). Studying China's foreign policy rhetoric:
+  Introducing the Chinese Ministry of Foreign Affairs Press Conferences Corpus.
+  Journal of Chinese Political Science.
+  https://link.springer.com/article/10.1007/s11366-021-09762-3
+
+Data repository (Harvard Dataverse):
+  https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BAKGET
+
+The dataset contains 35,346 question-and-answer pairs from regular press conferences
+held by the Chinese Ministry of Foreign Affairs, covering the period from October 2002
+to December 2025.
+
+Retrieved by Haohan Chen on April 12, 2026 for teaching purpose in POLI3148 Data
+Science in Politics and Public Administration (HKU, Spring 2026).
