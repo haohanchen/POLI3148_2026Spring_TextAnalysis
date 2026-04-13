@@ -32,9 +32,9 @@ The University of Hong Kong
 
 | Session | Topic |
 |---------|-------|
-| 4 | LLM-Powered Text Analysis: Introduction |
-| 5 | LLM Deep Dive -- Batch Processing and Evaluation |
-| 6 | Embeddings, RAG, and LLM as Knowledge Base |
+| 4 | Introduction |
+| 5 | Application (1) |
+| 6 | Application (2) |
 
 ---
 
@@ -42,8 +42,7 @@ The University of Hong Kong
 
 - We will use the **same dataset** throughout all 6 sessions
 - First analyze it with traditional methods (Sessions 1--3)
-- Then re-do the same tasks with LLMs (Sessions 4--6)
-- Compare results: where do LLMs improve? Where do traditional methods hold up?
+- Then extend upon them using LLMs (Sessions 4--6)
 
 ---
 
