@@ -1,19 +1,21 @@
 # POLI3148 2026 Spring -- Text Analysis
 
-Teaching materials for POLI3148 Data Science in Politics and Public Administration (HKU, Spring 2026).
+This is the **Text Analysis** module of POLI3148 Data Science in Politics and Public Administration (HKU, Spring 2026). The module introduces text analysis methods ranging from traditional NLP techniques to LLM-powered approaches. We use *the Chinese Ministry of Foreign Affairs Press Conference Corpus* (Mochtak & Turcsanyi, 2021) as a running example throughout all sessions.
 
-## Data
+## Case: MoFA Press Conference Corpus
 
-### MoFA Press Conference Corpus
+We use the Chinese Ministry of Foreign Affairs Press Conference Corpus as a running example to demonstrate a variety of text analysis skills.
 
-Chinese Ministry of Foreign Affairs Press Conferences Corpus (CMFA PressCon v6). 35,346 question-and-answer pairs from October 2002 to December 2025.
+The dataset (CMFA PressCon v6) contains 35,346 question-and-answer pairs from October 2002 to December 2025. It is retrieved from Harvard Dataverse: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BAKGET
+
+For teaching purposes, the data and codebook are stored locally in this repository:
 
 - **Data:** `data/CMFA_PressCon_v6.xlsx`
 - **Codebook:** `data/CODEBOOK_CMFA_PressCon_v6.pdf`
 
-**Source:**
-- Data: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BAKGET
-- Paper: https://link.springer.com/article/10.1007/s11366-021-09762-3
+**Reference:**
+
+Mochtak, M., Turcsanyi, R.Q. Studying Chinese Foreign Policy Narratives: Introducing the Ministry of Foreign Affairs Press Conferences Corpus. *Journal of Chinese Political Science*. 26, 743–761 (2021). https://doi.org/10.1007/s11366-021-09762-3
 
 ## Lectures
 
