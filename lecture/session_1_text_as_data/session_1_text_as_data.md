@@ -8,7 +8,7 @@ header: 'POLI3148. 2026 Spring. Text Analysis I.'
 <!-- _class: title -->
 
 # Text Analysis I
-## Introduction an Feature Engineering
+## Introduction and Feature Engineering
 
 POLI3148 Data Science in Politics and Public Administration
 
