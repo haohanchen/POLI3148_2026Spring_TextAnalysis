@@ -138,6 +138,12 @@ section.divider h1 {
   border-bottom: none;
 }
 
+section.divider h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
 /* Title slide */
 section.title {
   background: var(--color-dark);
@@ -162,7 +168,7 @@ section.title h1 {
 
 section.title h2 {
   color: #A0AEC0;
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-weight: normal;
 }
 
