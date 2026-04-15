@@ -21,9 +21,9 @@ Chinese Ministry of Foreign Affairs Press Conferences Corpus (CMFA PressCon v6).
 
 | Session | Topic | Notebook | Slides |
 |---------|-------|----------|--------|
-| 1 | Text as Data | [Notebook](lecture/session_1_text_as_data/session_1_text_as_data.ipynb) | [Slides](lecture/session_1_text_as_data/session_1_text_as_data.md) |
-| 2 | Word Frequencies, Word Clouds, Topic Modeling | [Notebook](lecture/session_2_wordfreq_topics/session_2_wordfreq_topics.ipynb) | [Slides](lecture/session_2_wordfreq_topics/session_2_wordfreq_topics.md) |
-| 3 | Sentiment Analysis and Text Classification | [Notebook](lecture/session_3_sentiment_classification/session_3_sentiment_classification.ipynb) | [Slides](lecture/session_3_sentiment_classification/session_3_sentiment_classification.md) |
+| 1 | Text as Data | [Notebook](lecture/session_1_text_as_data/session_1_text_as_data.ipynb) | [Slides](lecture/session_1_text_as_data/session_1_text_as_data.pdf) |
+| 2 | Word Frequencies, Word Clouds, Topic Modeling | [Notebook](lecture/session_2_wordfreq_topics/session_2_wordfreq_topics.ipynb) | [Slides](lecture/session_2_wordfreq_topics/session_2_wordfreq_topics.pdf) |
+| 3 | Sentiment Analysis and Text Classification | [Notebook](lecture/session_3_sentiment_classification/session_3_sentiment_classification.ipynb) | [Slides](lecture/session_3_sentiment_classification/session_3_sentiment_classification.pdf) |
 
 ### LLM-Powered Text Analysis (Sessions 4-6)
 
