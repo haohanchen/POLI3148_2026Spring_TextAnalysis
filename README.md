@@ -31,6 +31,6 @@ Mochtak, M., Turcsanyi, R.Q. Studying Chinese Foreign Policy Narratives: Introdu
 
 | Session | Topic | Notebook | Slides |
 |---------|-------|----------|--------|
-| 4 | Introduction | . | . |
+| 4 | Introduction | [Notebook](lecture/session_4_llm_text_analysis/session_4_llm_text_analysis.ipynb) | [Slides](lecture/session_4_llm_text_analysis/session_4_llm_text_analysis.pdf) |
 | 5 | Application (1) | . | . | 
 | 6 | Application (2) | . | . | 
